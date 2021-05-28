@@ -37,6 +37,7 @@ body{
     border-radius: 20px;
     padding-left: 20px;
     margin: 20px;
+    min-width: 300px;
 }
 
 #search{
@@ -131,6 +132,7 @@ p{
 #logodiv{
     display: flex;
     flex-direction: row;
+    margin-left: 40px;
 }
 
 #buttons{
@@ -210,6 +212,7 @@ table{
 .incol{
     width: 570px;
     height: 29px;
+    min-width: 300px;
 }
 
 .hint{
@@ -233,7 +236,18 @@ table{
     font-family: arial, sans-serif;
     height: 30px;
     width: 120px;
-    position: relative;
     margin-top: 20px;
-    left: 680px;
+    margin-right: 0; 
+}
+
+#adventerow{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-items: center;
+}
+
+@media (max-width: 1370px) {
+   .disap, .hint{
+        display: none;
+    }
 }
