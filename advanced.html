@@ -4,6 +4,7 @@
         <title>Advanced Search</title>
         <link rel="stylesheet" href="style.css">
         <link rel="shortcut icon" href="favicon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <header style="height: 5.5%; width: 100%;">
@@ -20,7 +21,7 @@
                     <tr>
                         <td  id="head1">Find pages with...</td>
                         <td></td>
-                        <td id="head2">To do this in the search box.</td>
+                        <td id="head2" class="disap">To do this in the search box.</td>
                     </tr>
                     <tr>
                         <td class="normal">all these words:</td>
@@ -42,9 +43,12 @@
                         <td class="incol"><input type="text" name="as_eq" class="adinput"></td>
                         <td class="hint">Put a minus sign just before words that you don't want:<br /> <span class="extra">-rodent, -"Jack Russel"</span></td>
                     </tr>
+                    <tr>
+                        <td></td>
+                        <td id="adventerow"><input type="submit" value="Advanced Search" id="adventer"></td>
+                    </tr>
                 </tbody>
             </table>
-            <input type="submit" value="Advanced Search" id="adventer">
         </form>
         <footer></footer>
     </body>
